@@ -20,12 +20,9 @@ If you have any idea of a page template, idea or want to contribute by making an
 
 > About me: <a href="https://linktr.ee/manueldesousa" target="_blank">Clique Aqui</a>
 
-<div style="background: #2c2e33; color: #fff; padding: 1em">
+<div style="border-top: 2px solid; padding-top: 1em">
     <p>Links of pages:</p>
-        <ul style="color: #fff">
-        <li><a href="#" target="_blank">Template 1</a></li>
-        <li><a href="#" target="_blank">Template 2</a></li>
-        <li><a href="#" target="_blank">Template 3</a></li>
+        <ul>
+        <li><a href="https://template-0001.netlify.app" target="_blank">Template 1</a></li>
     </ul>
 </div>
-
