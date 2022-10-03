@@ -25,5 +25,6 @@ If you have any idea of a page template, idea or want to contribute by making an
         <ul>
         <li><a href="https://template-0001.netlify.app" target="_blank">Template 1</a></li>
         <li><a href="https://template-0002.netlify.app" target="_blank">Template 2</a></li>
+        <li><a href="https://template-0003.netlify.app" target="_blank">Template 3</a></li>
     </ul>
 </div>
