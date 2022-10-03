@@ -15,14 +15,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #acacac;
   font-family: var(--font-family);
 }
-
 main {
-  /* background-color: yellowgreen; */
   height: 100vh;
   width: 100vw;
   padding: 3em;
@@ -30,18 +27,13 @@ main {
   justify-content: center;
   flex-direction: column;
 }
-
 .card {
-  /* background-color: #339af0; */
   position: relative;
 }
-
 .card img {
   width: 100%;
 }
-
 .card .information {
-  /* background-color: rgba(127, 255, 212, 0.514); */
   position: absolute;
   top: 5.5%;
   left: 14.5%;
@@ -49,30 +41,22 @@ main {
   height: 57.5%;
   display: flex;
 }
-
 .img-404 {
-  /* background-color: #555; */
   width: 40%;
   display: flex;
   justify-content: center;
-
-  /* margin-right: 2em; */
 }
-
 .text {
-  /* background-color: #999; */
   width: 60%;
   display: flex;
   align-items: center;
 }
-
 .text .text-card {
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-
 .text h1 {
   margin-bottom: 0.5em;
   font-size: 34px;
@@ -84,12 +68,10 @@ main {
   color: var(--text_color);
   margin-bottom: 1em;
 }
-
 .image {
   max-width: 406px;
   margin-right: 2em;
 }
-
 button {
   padding: 1rem;
   font-size: 16px;
@@ -110,13 +92,9 @@ button {
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
 }
-
 button:hover {
   color: var(--first_color);
 }
-
-
-
 @media only screen and (max-width: 1175px) {
   .text h1 {
     font-size: 28px;
@@ -128,11 +106,10 @@ button:hover {
   }
   button {
     width: 13.2em;
-    padding: .7rem;
+    padding: 0.7rem;
     font-size: 15px;
   }
 }
-
 @media only screen and (max-width: 916px) {
   .text h1 {
     font-size: 20px;
@@ -140,20 +117,15 @@ button:hover {
   }
   .text p {
     font-size: 13px;
-    /* line-height: 14.9px; */
     margin-bottom: 1em;
   }
   button {
     width: 13.2em;
-    padding: .5rem 0rem;
+    padding: 0.5rem 0rem;
     font-size: 12px;
   }
-  body{background-color: red;}
 }
-
-
 @media only screen and (max-width: 800px) {
-  body{background-color: blue;}
   main {
     padding: 0;
   }
@@ -163,69 +135,59 @@ button:hover {
   .text p {
     font-size: 13px;
     line-height: 14.9px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   button {
     width: 12em;
-    /* padding: .3rem; */
     font-size: 11px;
   }
 }
-
 @media only screen and (max-width: 598px) {
   .text h1 {
     font-size: 15px;
-    /* margin-bottom: 0.2em; */
   }
   .text p {
     font-size: 9px;
     line-height: 12.9px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   button {
     width: 12.2em;
-    /* padding: .5rem 0rem; */
     font-size: 10px;
   }
-  body{background-color: yellowgreen;}
 }
-
 @media only screen and (max-width: 505px) {
   .text h1 {
     font-size: 10px;
-    /* margin-bottom: 0.2em; */
   }
   .text p {
     font-size: 8px;
     line-height: 8px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   button {
     width: 12em;
-    padding: .2rem 0rem;
+    padding: 0.2rem 0rem;
     font-size: 7px;
   }
-  body{background-color: yellow;}
 }
 @media only screen and (max-width: 354px) {
   .text h1 {
     font-size: 9px;
-    /* margin-bottom: 0.2em; */
   }
   .text p {
     font-size: 7px;
     line-height: 7px;
-    margin-bottom: .3em;
+    margin-bottom: 0.3em;
   }
   .img-404 {
     width: 35%;
   }
   button {
     width: 12em;
-    padding: .2rem 0rem;
+    padding: 0.2rem 0rem;
     font-size: 5px;
   }
-  body{background-color: red;}
 }
 @media only screen and (max-width: 255px) {
   .text h1 {
@@ -234,18 +196,16 @@ button:hover {
   .text p {
     font-size: 6px;
     line-height: 6px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-
   button {
     width: 13em;
-    padding: .2rem .1rem;
+    padding: 0.2rem 0.1rem;
     font-size: 4px;
   }
   .img-404 {
     width: 30%;
   }
-  body{background-color: yellow;}
 }
 @media only screen and (max-width: 216px) {
   .text h1 {
@@ -254,23 +214,18 @@ button:hover {
   .text p {
     font-size: 5px;
     line-height: 5px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-
   button {
-  
     font-size: 3px;
   }
-
-  body{background-color: blue;}
 }
 @media only screen and (max-width: 182px) {
-
   .text p {
     display: none;
   }
-
-
-
-  body{background-color: green;}
+  button {
+    margin-top: 2.5em;
+    font-size: 2px;
+  }
 }
